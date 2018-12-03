@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70033791BCC42930012BA4E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70033781BCC42930012BA4E /* SwiftyJSON.swift */; };
+		A70BEA071BCD7AB00098C91D /* BackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70BEA061BCD7AB00098C91D /* BackTableViewController.swift */; };
+		A70DCA091B44A89B00D3DEF5 /* PlaceVotingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70DCA081B44A89B00D3DEF5 /* PlaceVotingCell.xib */; };
+		A7104B1E1C5E97E900620150 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7104B1D1C5E97E900620150 /* Bolts.framework */; };
+		A72626061BA9DD3E00C6382B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A72626051BA9DD3E00C6382B /* Reachability.m */; };
+		A72951D91CC03E2D00E9FBDE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72951D81CC03E2D00E9FBDE /* FBSDKCoreKit.framework */; };
+		A72D59AD1B0A7F8700B6486E /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D59AC1B0A7F8700B6486E /* UserDataManager.swift */; };
+		A72D59E41B0BB93100B6486E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A72D59DB1B0BB93100B6486E /* FMDatabase.m */; };
+		A72D59E51B0BB93100B6486E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A72D59DD1B0BB93100B6486E /* FMResultSet.m */; };
+		A72D59E61B0BB93100B6486E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A72D59DF1B0BB93100B6486E /* FMDatabaseQueue.m */; };
+		A72D59E71B0BB93100B6486E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A72D59E11B0BB93100B6486E /* FMDatabaseAdditions.m */; };
+		A72D59E81B0BB93100B6486E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A72D59E31B0BB93100B6486E /* FMDatabasePool.m */; };
+		A72E6ABB1B4B02FE00DA80D9 /* DateVotingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72E6ABA1B4B02FE00DA80D9 /* DateVotingCell.xib */; };
+		A72E6ABD1B4B039A00DA80D9 /* DateVotingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72E6ABC1B4B039A00DA80D9 /* DateVotingTableViewCell.swift */; };
+		A740D2831B44ABBF00813F19 /* PlaceVotingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D2821B44ABBF00813F19 /* PlaceVotingTableViewCell.swift */; };
+		A74293AA1ACEEBD9004E8096 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74293A91ACEEBD9004E8096 /* User.swift */; };
+		A743460F1B5434C4008F569A /* AddPlaceInvitationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743460E1B5434C4008F569A /* AddPlaceInvitationDetailsViewController.swift */; };
+		A74346141B543C61008F569A /* AddFriendInvitationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74346131B543C61008F569A /* AddFriendInvitationDetailsViewController.swift */; };
+		A743E5F41AD6F4C7008C1AAF /* AddRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743E5F31AD6F4C7008C1AAF /* AddRestaurantViewController.swift */; };
+		A743E5FA1AD7049C008C1AAF /* RestaurantDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743E5F91AD7049C008C1AAF /* RestaurantDataManager.swift */; };
+		A743E5FC1AD704D2008C1AAF /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743E5FB1AD704D2008C1AAF /* Restaurant.swift */; };
+		A74A51841CC565000063DE4F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A51831CC565000063DE4F /* Group.swift */; };
+		A74A51861CC990A00063DE4F /* GroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74A51851CC990A00063DE4F /* GroupDataManager.swift */; };
+		A76049451B2B403D006ECA35 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76049441B2B403D006ECA35 /* Participant.swift */; };
+		A767FB791BBDAB0100511EE4 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A767FB781BBDAB0100511EE4 /* NotificationHandler.swift */; };
+		A76B2E551ABB91F300E3651F /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B2E541ABB91F300E3651F /* Invitation.swift */; };
+		A76B2E881ABC6DE600E3651F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A76B2E861ABC6DE600E3651F /* Model.xcdatamodeld */; };
+		A779C45E1B6C0F510011433F /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779C45D1B6C0F510011433F /* CommentsViewController.swift */; };
+		A779C4631B6E66160011433F /* CommentsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779C4621B6E66160011433F /* CommentsDataManager.swift */; };
+		A779C4651B6E66CD0011433F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779C4641B6E66CD0011433F /* Comment.swift */; };
+		A77B1DFA1B7FF62000A378D2 /* ParticipantDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77B1DF91B7FF62000A378D2 /* ParticipantDataManager.swift */; };
+		A77F4E3A1AE9AC64005D0D4F /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F4E391AE9AC64005D0D4F /* FriendTableViewCell.swift */; };
+		A77F4E3C1AE9ACE5005D0D4F /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77F4E3B1AE9ACE5005D0D4F /* FriendCell.xib */; };
+		A7877CBB1AC34FBA00EB5FF9 /* InvitationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7877CBA1AC34FBA00EB5FF9 /* InvitationCell.xib */; };
+		A7877CBD1AC3509200EB5FF9 /* InvitationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7877CBC1AC3509200EB5FF9 /* InvitationTableViewCell.swift */; };
+		A7877CBF1AC375B200EB5FF9 /* InvitationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7877CBE1AC375B200EB5FF9 /* InvitationDetailsViewController.swift */; };
+		A7A45AB11B671471000E7EE7 /* PlaceVote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A45AB01B671471000E7EE7 /* PlaceVote.swift */; };
+		A7A45AB61B671628000E7EE7 /* PlaceVoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A45AB51B671628000E7EE7 /* PlaceVoteDataManager.swift */; };
+		A7A5B9DB1BA32A610040BA74 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BE61591B99FD360052C7E2 /* Social.framework */; };
+		A7A5B9DF1BA32B290040BA74 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A5B9DE1BA32B290040BA74 /* MessageUI.framework */; };
+		A7A6ACFC1B451BC300ADF26F /* AddDateInvitationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6ACFB1B451BC300ADF26F /* AddDateInvitationDetailsViewController.swift */; };
+		A7A8FC501B8CBF6B00682D0B /* PopupMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A8FC4F1B8CBF6B00682D0B /* PopupMessageHandler.swift */; };
+		A7A97F5D1ABA6505002D679B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A97F5C1ABA6505002D679B /* AppDelegate.swift */; };
+		A7A97F5F1ABA6505002D679B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A97F5E1ABA6505002D679B /* FirstViewController.swift */; };
+		A7A97F611ABA6505002D679B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A97F601ABA6505002D679B /* SecondViewController.swift */; };
+		A7A97F641ABA6505002D679B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A97F621ABA6505002D679B /* Main.storyboard */; };
+		A7A97F661ABA6505002D679B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A97F651ABA6505002D679B /* Images.xcassets */; };
+		A7A97F691ABA6505002D679B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A97F671ABA6505002D679B /* LaunchScreen.xib */; };
+		A7A97F7F1ABB2D29002D679B /* InvitationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A97F7E1ABB2D29002D679B /* InvitationDataManager.swift */; };
+		A7BE61531B98AF020052C7E2 /* DatabaseOpenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BE61521B98AF020052C7E2 /* DatabaseOpenHandler.swift */; };
+		A7C2F5811B051ED000E5B7BF /* GoogleReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C2F5801B051ED000E5B7BF /* GoogleReviewsViewController.swift */; };
+		A7C448F11ACC8463008848D3 /* PossibleInvitationDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C448F01ACC8463008848D3 /* PossibleInvitationDate.swift */; };
+		A7C9E2161CBEB9B400796DB6 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A734A3841CBEB77900C0B0AA /* ObjectMapper.framework */; };
+		A7D0400F1B5FFAB1004568A2 /* PossibleInvitationDateVote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D0400E1B5FFAB1004568A2 /* PossibleInvitationDateVote.swift */; };
+		A7D040111B5FFBB6004568A2 /* PossibleInvitationDateVoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D040101B5FFBB6004568A2 /* PossibleInvitationDateVoteDataManager.swift */; };
+		A7E1374D1BB5DC8800562B8B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1374C1BB5DC8800562B8B /* SWRevealViewController.m */; };
+		A7E137541BB9B2D600562B8B /* LogoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E137531BB9B2D600562B8B /* LogoutCell.xib */; };
+		A7E137561BB9B3DF00562B8B /* LogoutCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E137551BB9B3DF00562B8B /* LogoutCellTableViewCell.swift */; };
+		A7E137581BB9D0CA00562B8B /* AuthenticatedUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E137571BB9D0CA00562B8B /* AuthenticatedUserCell.xib */; };
+		A7E1375A1BB9D14A00562B8B /* AuthenticatedUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E137591BB9D14A00562B8B /* AuthenticatedUserTableViewCell.swift */; };
+		A7E1375C1BBA199300562B8B /* ContactUsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E1375B1BBA199300562B8B /* ContactUsCell.xib */; };
+		A7E1375E1BBA19F300562B8B /* ContactUsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1375D1BBA19F300562B8B /* ContactUsTableViewCell.swift */; };
+		A7E137601BBAE58400562B8B /* ShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E1375F1BBAE58400562B8B /* ShareCell.xib */; };
+		A7E137621BBAE60D00562B8B /* ShareTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E137611BBAE60D00562B8B /* ShareTableViewCell.swift */; };
+		A7E137641BBAF02F00562B8B /* AppNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E137631BBAF02F00562B8B /* AppNameCell.xib */; };
+		A7E137661BBAF10300562B8B /* AppNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E137651BBAF10300562B8B /* AppNameTableViewCell.swift */; };
+		A7E3F8501AD818DC002795B3 /* AddDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F84F1AD818DC002795B3 /* AddDateViewController.swift */; };
+		A7E3F8521AD83967002795B3 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F8511AD83967002795B3 /* AddFriendViewController.swift */; };
+		A7F1D5071B49B53100F34A2E /* PossibleInvitationDateDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1D5061B49B53100F34A2E /* PossibleInvitationDateDataManager.swift */; };
+		A7F6081E1B1649D000EA4674 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6081D1B1649D000EA4674 /* Config.swift */; };
+		A7F68F791ACA27700088104E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F68F781ACA27700088104E /* LoginViewController.swift */; };
+		A810CEF61CCCA5C1009554FB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A810CEF31CCCA5C1009554FB /* FBSDKCoreKit.framework */; };
+		A810CEF71CCCA5C1009554FB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A810CEF41CCCA5C1009554FB /* FBSDKLoginKit.framework */; };
+		A810CEF81CCCA5C1009554FB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A810CEF51CCCA5C1009554FB /* FBSDKShareKit.framework */; };
+		A84BF8DB1CBAF9F60080DDB1 /* ChangeIconVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84BF8DA1CBAF9F60080DDB1 /* ChangeIconVisible.swift */; };
+		A85217DD1CB2D5FC00D9F9AF /* EditTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85217DC1CB2D5FC00D9F9AF /* EditTitleViewController.swift */; };
+		A8BBFB181C46DD1600B4F933 /* Pods_SocialDining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BBFB171C46DD1600B4F933 /* Pods_SocialDining.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7A97F6F1ABA6506002D679B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A97F4F1ABA6505002D679B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A97F561ABA6505002D679B;
+			remoteInfo = SocialDining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A70033741BCC3BEA0012BA4E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7992D481BD18C89002CFC76 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7992D4E1BD18D45002CFC76 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19D8B9A1AE9BE9E002323BE /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1631B5DCB7DB46CA717EE01A /* Pods_SocialDining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialDining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8932E59D831026F275CA5FDD /* Pods-SocialDining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialDining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialDining/Pods-SocialDining.debug.xcconfig"; sourceTree = "<group>"; };
+		A70033781BCC42930012BA4E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A70BEA061BCD7AB00098C91D /* BackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableViewController.swift; sourceTree = "<group>"; };
+		A70DCA081B44A89B00D3DEF5 /* PlaceVotingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceVotingCell.xib; sourceTree = "<group>"; };
+		A7104B1D1C5E97E900620150 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A72626041BA9DD3E00C6382B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A72626051BA9DD3E00C6382B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A72951D81CC03E2D00E9FBDE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A72D59AC1B0A7F8700B6486E /* UserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		A72D59D91B0BB93100B6486E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = fmdb/src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		A72D59DA1B0BB93100B6486E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		A72D59DB1B0BB93100B6486E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		A72D59DC1B0BB93100B6486E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		A72D59DD1B0BB93100B6486E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		A72D59DE1B0BB93100B6486E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A72D59DF1B0BB93100B6486E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A72D59E01B0BB93100B6486E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A72D59E11B0BB93100B6486E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A72D59E21B0BB93100B6486E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = fmdb/src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		A72D59E31B0BB93100B6486E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = fmdb/src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		A72E6ABA1B4B02FE00DA80D9 /* DateVotingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateVotingCell.xib; sourceTree = "<group>"; };
+		A72E6ABC1B4B039A00DA80D9 /* DateVotingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateVotingTableViewCell.swift; sourceTree = "<group>"; };
+		A734A3841CBEB77900C0B0AA /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SocialDining-dafzuxknjptovvgcdspglvtpsxtx/Build/Products/Debug-iphoneos/ObjectMapper.framework"; sourceTree = "<group>"; };
+		A740D2821B44ABBF00813F19 /* PlaceVotingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceVotingTableViewCell.swift; sourceTree = "<group>"; };
+		A74293A91ACEEBD9004E8096 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A743460E1B5434C4008F569A /* AddPlaceInvitationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlaceInvitationDetailsViewController.swift; sourceTree = "<group>"; };
+		A74346131B543C61008F569A /* AddFriendInvitationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendInvitationDetailsViewController.swift; sourceTree = "<group>"; };
+		A743E5F31AD6F4C7008C1AAF /* AddRestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRestaurantViewController.swift; sourceTree = "<group>"; };
+		A743E5F91AD7049C008C1AAF /* RestaurantDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDataManager.swift; sourceTree = "<group>"; };
+		A743E5FB1AD704D2008C1AAF /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A74A51831CC565000063DE4F /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		A74A51851CC990A00063DE4F /* GroupDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDataManager.swift; sourceTree = "<group>"; };
+		A750FCA41B5D750100110CAF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A750FCA91B5D751100110CAF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A750FCAB1B5D751F00110CAF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A750FCAD1B5D752E00110CAF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A750FCAF1B5D753900110CAF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A750FCB11B5D754600110CAF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A750FCB91B5D758A00110CAF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A750FCBB1B5D759300110CAF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A750FCBD1B5D759F00110CAF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A76049441B2B403D006ECA35 /* Participant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		A767FB781BBDAB0100511EE4 /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		A76B2E541ABB91F300E3651F /* Invitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		A76B2E871ABC6DE600E3651F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A779C45D1B6C0F510011433F /* CommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		A779C4621B6E66160011433F /* CommentsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDataManager.swift; sourceTree = "<group>"; };
+		A779C4641B6E66CD0011433F /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		A77B1DF91B7FF62000A378D2 /* ParticipantDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantDataManager.swift; sourceTree = "<group>"; };
+		A77F4E391AE9AC64005D0D4F /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		A77F4E3B1AE9ACE5005D0D4F /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
+		A7877CBA1AC34FBA00EB5FF9 /* InvitationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvitationCell.xib; sourceTree = "<group>"; };
+		A7877CBC1AC3509200EB5FF9 /* InvitationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationTableViewCell.swift; sourceTree = "<group>"; };
+		A7877CBE1AC375B200EB5FF9 /* InvitationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationDetailsViewController.swift; sourceTree = "<group>"; };
+		A7A45AB01B671471000E7EE7 /* PlaceVote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceVote.swift; sourceTree = "<group>"; };
+		A7A45AB51B671628000E7EE7 /* PlaceVoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceVoteDataManager.swift; sourceTree = "<group>"; };
+		A7A5B9DC1BA32AAE0040BA74 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A7A5B9DE1BA32B290040BA74 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A7A6ACFB1B451BC300ADF26F /* AddDateInvitationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDateInvitationDetailsViewController.swift; sourceTree = "<group>"; };
+		A7A8FC4F1B8CBF6B00682D0B /* PopupMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupMessageHandler.swift; sourceTree = "<group>"; };
+		A7A97F571ABA6505002D679B /* OWF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A97F5B1ABA6505002D679B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A97F5C1ABA6505002D679B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7A97F5E1ABA6505002D679B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A7A97F601ABA6505002D679B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A7A97F631ABA6505002D679B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7A97F651ABA6505002D679B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7A97F681ABA6505002D679B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7A97F6E1ABA6506002D679B /* SocialDiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialDiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A97F7E1ABB2D29002D679B /* InvitationDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationDataManager.swift; sourceTree = "<group>"; };
+		A7BE61521B98AF020052C7E2 /* DatabaseOpenHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseOpenHandler.swift; sourceTree = "<group>"; };
+		A7BE61591B99FD360052C7E2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A7C2F5801B051ED000E5B7BF /* GoogleReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleReviewsViewController.swift; sourceTree = "<group>"; };
+		A7C448F01ACC8463008848D3 /* PossibleInvitationDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PossibleInvitationDate.swift; sourceTree = "<group>"; };
+		A7D0400E1B5FFAB1004568A2 /* PossibleInvitationDateVote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PossibleInvitationDateVote.swift; sourceTree = "<group>"; };
+		A7D040101B5FFBB6004568A2 /* PossibleInvitationDateVoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PossibleInvitationDateVoteDataManager.swift; sourceTree = "<group>"; };
+		A7E1374B1BB5DC8800562B8B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A7E1374C1BB5DC8800562B8B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A7E137531BB9B2D600562B8B /* LogoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogoutCell.xib; sourceTree = "<group>"; };
+		A7E137551BB9B3DF00562B8B /* LogoutCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutCellTableViewCell.swift; sourceTree = "<group>"; };
+		A7E137571BB9D0CA00562B8B /* AuthenticatedUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticatedUserCell.xib; sourceTree = "<group>"; };
+		A7E137591BB9D14A00562B8B /* AuthenticatedUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatedUserTableViewCell.swift; sourceTree = "<group>"; };
+		A7E1375B1BBA199300562B8B /* ContactUsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactUsCell.xib; sourceTree = "<group>"; };
+		A7E1375D1BBA19F300562B8B /* ContactUsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsTableViewCell.swift; sourceTree = "<group>"; };
+		A7E1375F1BBAE58400562B8B /* ShareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareCell.xib; sourceTree = "<group>"; };
+		A7E137611BBAE60D00562B8B /* ShareTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareTableViewCell.swift; sourceTree = "<group>"; };
+		A7E137631BBAF02F00562B8B /* AppNameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppNameCell.xib; sourceTree = "<group>"; };
+		A7E137651BBAF10300562B8B /* AppNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNameTableViewCell.swift; sourceTree = "<group>"; };
+		A7E3F84F1AD818DC002795B3 /* AddDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDateViewController.swift; sourceTree = "<group>"; };
+		A7E3F8511AD83967002795B3 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		A7F1D5061B49B53100F34A2E /* PossibleInvitationDateDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PossibleInvitationDateDataManager.swift; sourceTree = "<group>"; };
+		A7F6081D1B1649D000EA4674 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A7F68F751ACA1F310088104E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		A7F68F781ACA27700088104E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A810CEF31CCCA5C1009554FB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A810CEF41CCCA5C1009554FB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A810CEF51CCCA5C1009554FB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		A84BF8DA1CBAF9F60080DDB1 /* ChangeIconVisible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeIconVisible.swift; sourceTree = "<group>"; };
+		A85217DC1CB2D5FC00D9F9AF /* EditTitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTitleViewController.swift; sourceTree = "<group>"; };
+		A8BBFB171C46DD1600B4F933 /* Pods_SocialDining.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SocialDining.framework; path = "Pods/../build/Debug-iphoneos/Pods_SocialDining.framework"; sourceTree = "<group>"; };
+		E11BC1B61DDE1127B15E8C56 /* Pods-SocialDining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialDining.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialDining/Pods-SocialDining.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A97F541ABA6505002D679B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BBFB181C46DD1600B4F933 /* Pods_SocialDining.framework in Frameworks */,
+				A7A5B9DF1BA32B290040BA74 /* MessageUI.framework in Frameworks */,
+				A7A5B9DB1BA32A610040BA74 /* Social.framework in Frameworks */,
+				A72951D91CC03E2D00E9FBDE /* FBSDKCoreKit.framework in Frameworks */,
+				A810CEF61CCCA5C1009554FB /* FBSDKCoreKit.framework in Frameworks */,
+				A810CEF81CCCA5C1009554FB /* FBSDKShareKit.framework in Frameworks */,
+				A7104B1E1C5E97E900620150 /* Bolts.framework in Frameworks */,
+				A810CEF71CCCA5C1009554FB /* FBSDKLoginKit.framework in Frameworks */,
+				A7C9E2161CBEB9B400796DB6 /* ObjectMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A97F6B1ABA6506002D679B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58CA17334C0A76C63D9E2FC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8932E59D831026F275CA5FDD /* Pods-SocialDining.debug.xcconfig */,
+				E11BC1B61DDE1127B15E8C56 /* Pods-SocialDining.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7A97F4E1ABA6505002D679B = {
+			isa = PBXGroup;
+			children = (
+				A810CEF31CCCA5C1009554FB /* FBSDKCoreKit.framework */,
+				A810CEF41CCCA5C1009554FB /* FBSDKLoginKit.framework */,
+				A810CEF51CCCA5C1009554FB /* FBSDKShareKit.framework */,
+				A7104B1D1C5E97E900620150 /* Bolts.framework */,
+				A7A5B9DC1BA32AAE0040BA74 /* Social.framework */,
+				A7A97F591ABA6505002D679B /* SocialDining */,
+				A7A97F581ABA6505002D679B /* Products */,
+				58CA17334C0A76C63D9E2FC3 /* Pods */,
+				FAD69EAB291C5AC57AE192B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A97F581ABA6505002D679B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A97F571ABA6505002D679B /* OWF.app */,
+				A7A97F6E1ABA6506002D679B /* SocialDiningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A97F591ABA6505002D679B /* SocialDining */ = {
+			isa = PBXGroup;
+			children = (
+				A70033781BCC42930012BA4E /* SwiftyJSON.swift */,
+				A72D59D91B0BB93100B6486E /* FMDB.h */,
+				A72D59DB1B0BB93100B6486E /* FMDatabase.m */,
+				A72D59DA1B0BB93100B6486E /* FMDatabase.h */,
+				A72D59DC1B0BB93100B6486E /* FMResultSet.h */,
+				A72D59DD1B0BB93100B6486E /* FMResultSet.m */,
+				A72D59DE1B0BB93100B6486E /* FMDatabaseQueue.h */,
+				A72D59DF1B0BB93100B6486E /* FMDatabaseQueue.m */,
+				A72D59E01B0BB93100B6486E /* FMDatabaseAdditions.h */,
+				A72D59E11B0BB93100B6486E /* FMDatabaseAdditions.m */,
+				A72D59E21B0BB93100B6486E /* FMDatabasePool.h */,
+				A72D59E31B0BB93100B6486E /* FMDatabasePool.m */,
+				A7F68F751ACA1F310088104E /* Bridging-Header.h */,
+				A7A97F5C1ABA6505002D679B /* AppDelegate.swift */,
+				A7F6081D1B1649D000EA4674 /* Config.swift */,
+				A7A8FC4F1B8CBF6B00682D0B /* PopupMessageHandler.swift */,
+				A767FB781BBDAB0100511EE4 /* NotificationHandler.swift */,
+				A7BE61521B98AF020052C7E2 /* DatabaseOpenHandler.swift */,
+				A7F68F781ACA27700088104E /* LoginViewController.swift */,
+				A7A97F5E1ABA6505002D679B /* FirstViewController.swift */,
+				A7A97F601ABA6505002D679B /* SecondViewController.swift */,
+				A7877CBE1AC375B200EB5FF9 /* InvitationDetailsViewController.swift */,
+				A743460E1B5434C4008F569A /* AddPlaceInvitationDetailsViewController.swift */,
+				A7A6ACFB1B451BC300ADF26F /* AddDateInvitationDetailsViewController.swift */,
+				A74346131B543C61008F569A /* AddFriendInvitationDetailsViewController.swift */,
+				A743E5F31AD6F4C7008C1AAF /* AddRestaurantViewController.swift */,
+				A779C45D1B6C0F510011433F /* CommentsViewController.swift */,
+				A7E3F84F1AD818DC002795B3 /* AddDateViewController.swift */,
+				A7E3F8511AD83967002795B3 /* AddFriendViewController.swift */,
+				A7C2F5801B051ED000E5B7BF /* GoogleReviewsViewController.swift */,
+				A7877CBA1AC34FBA00EB5FF9 /* InvitationCell.xib */,
+				A7877CBC1AC3509200EB5FF9 /* InvitationTableViewCell.swift */,
+				A70DCA081B44A89B00D3DEF5 /* PlaceVotingCell.xib */,
+				A740D2821B44ABBF00813F19 /* PlaceVotingTableViewCell.swift */,
+				A72E6ABA1B4B02FE00DA80D9 /* DateVotingCell.xib */,
+				A72E6ABC1B4B039A00DA80D9 /* DateVotingTableViewCell.swift */,
+				A77F4E3B1AE9ACE5005D0D4F /* FriendCell.xib */,
+				A77F4E391AE9AC64005D0D4F /* FriendTableViewCell.swift */,
+				A76B2E861ABC6DE600E3651F /* Model.xcdatamodeld */,
+				A7A97F621ABA6505002D679B /* Main.storyboard */,
+				A85217DC1CB2D5FC00D9F9AF /* EditTitleViewController.swift */,
+				A7A97F651ABA6505002D679B /* Images.xcassets */,
+				A7A97F671ABA6505002D679B /* LaunchScreen.xib */,
+				A7A97F5A1ABA6505002D679B /* Supporting Files */,
+				A76B2E541ABB91F300E3651F /* Invitation.swift */,
+				A84BF8DA1CBAF9F60080DDB1 /* ChangeIconVisible.swift */,
+				A7A97F7E1ABB2D29002D679B /* InvitationDataManager.swift */,
+				A7C448F01ACC8463008848D3 /* PossibleInvitationDate.swift */,
+				A7F1D5061B49B53100F34A2E /* PossibleInvitationDateDataManager.swift */,
+				A743E5FB1AD704D2008C1AAF /* Restaurant.swift */,
+				A743E5F91AD7049C008C1AAF /* RestaurantDataManager.swift */,
+				A74293A91ACEEBD9004E8096 /* User.swift */,
+				A72D59AC1B0A7F8700B6486E /* UserDataManager.swift */,
+				A76049441B2B403D006ECA35 /* Participant.swift */,
+				A77B1DF91B7FF62000A378D2 /* ParticipantDataManager.swift */,
+				A7D0400E1B5FFAB1004568A2 /* PossibleInvitationDateVote.swift */,
+				A7D040101B5FFBB6004568A2 /* PossibleInvitationDateVoteDataManager.swift */,
+				A7A45AB01B671471000E7EE7 /* PlaceVote.swift */,
+				A7A45AB51B671628000E7EE7 /* PlaceVoteDataManager.swift */,
+				A779C4641B6E66CD0011433F /* Comment.swift */,
+				A779C4621B6E66160011433F /* CommentsDataManager.swift */,
+				A7E137531BB9B2D600562B8B /* LogoutCell.xib */,
+				A7E137551BB9B3DF00562B8B /* LogoutCellTableViewCell.swift */,
+				A7E137571BB9D0CA00562B8B /* AuthenticatedUserCell.xib */,
+				A7E137591BB9D14A00562B8B /* AuthenticatedUserTableViewCell.swift */,
+				A7E1375B1BBA199300562B8B /* ContactUsCell.xib */,
+				A7E1375D1BBA19F300562B8B /* ContactUsTableViewCell.swift */,
+				A7E1375F1BBAE58400562B8B /* ShareCell.xib */,
+				A7E137611BBAE60D00562B8B /* ShareTableViewCell.swift */,
+				A7E137631BBAF02F00562B8B /* AppNameCell.xib */,
+				A7E137651BBAF10300562B8B /* AppNameTableViewCell.swift */,
+				A70BEA061BCD7AB00098C91D /* BackTableViewController.swift */,
+				A74A51831CC565000063DE4F /* Group.swift */,
+				A74A51851CC990A00063DE4F /* GroupDataManager.swift */,
+			);
+			path = SocialDining;
+			sourceTree = "<group>";
+		};
+		A7A97F5A1ABA6505002D679B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1374B1BB5DC8800562B8B /* SWRevealViewController.h */,
+				A7E1374C1BB5DC8800562B8B /* SWRevealViewController.m */,
+				A72626041BA9DD3E00C6382B /* Reachability.h */,
+				A72626051BA9DD3E00C6382B /* Reachability.m */,
+				A7A97F5B1ABA6505002D679B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD69EAB291C5AC57AE192B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72951D81CC03E2D00E9FBDE /* FBSDKCoreKit.framework */,
+				A734A3841CBEB77900C0B0AA /* ObjectMapper.framework */,
+				A7A5B9DE1BA32B290040BA74 /* MessageUI.framework */,
+				A7BE61591B99FD360052C7E2 /* Social.framework */,
+				A750FCBD1B5D759F00110CAF /* SystemConfiguration.framework */,
+				A750FCBB1B5D759300110CAF /* QuartzCore.framework */,
+				A750FCB91B5D758A00110CAF /* OpenGLES.framework */,
+				A750FCB11B5D754600110CAF /* ImageIO.framework */,
+				A750FCAF1B5D753900110CAF /* GLKit.framework */,
+				A750FCAD1B5D752E00110CAF /* CoreText.framework */,
+				A750FCAB1B5D751F00110CAF /* CoreLocation.framework */,
+				A750FCA91B5D751100110CAF /* CoreData.framework */,
+				A750FCA41B5D750100110CAF /* AVFoundation.framework */,
+				1631B5DCB7DB46CA717EE01A /* Pods_SocialDining.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A97F561ABA6505002D679B /* SocialDining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A97F781ABA6506002D679B /* Build configuration list for PBXNativeTarget "SocialDining" */;
+			buildPhases = (
+				C26D8C12F86E7E8F34B69967 /* Check Pods Manifest.lock */,
+				A7A97F531ABA6505002D679B /* Sources */,
+				A7A97F541ABA6505002D679B /* Frameworks */,
+				A7A97F551ABA6505002D679B /* Resources */,
+				E19D8B9A1AE9BE9E002323BE /* Copy Frameworks */,
+				563CBB83708D9EEA4CE34791 /* Copy Pods Resources */,
+				A70033741BCC3BEA0012BA4E /* CopyFiles */,
+				A7992D481BD18C89002CFC76 /* CopyFiles */,
+				152E48473973309FF4157715 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialDining;
+			productName = SocialDining;
+			productReference = A7A97F571ABA6505002D679B /* OWF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A97F6D1ABA6506002D679B /* SocialDiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A97F7B1ABA6506002D679B /* Build configuration list for PBXNativeTarget "SocialDiningTests" */;
+			buildPhases = (
+				A7A97F6A1ABA6506002D679B /* Sources */,
+				A7A97F6B1ABA6506002D679B /* Frameworks */,
+				A7A97F6C1ABA6506002D679B /* Resources */,
+				A7992D4E1BD18D45002CFC76 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A97F701ABA6506002D679B /* PBXTargetDependency */,
+			);
+			name = SocialDiningTests;
+			productName = SocialDiningTests;
+			productReference = A7A97F6E1ABA6506002D679B /* SocialDiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A97F4F1ABA6505002D679B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "University of Colorado, Boulder";
+				TargetAttributes = {
+					A7A97F561ABA6505002D679B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3ZD6TRAMN2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A7A97F6D1ABA6506002D679B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3ZD6TRAMN2;
+						TestTargetID = A7A97F561ABA6505002D679B;
+					};
+				};
+			};
+			buildConfigurationList = A7A97F521ABA6505002D679B /* Build configuration list for PBXProject "SocialDining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A97F4E1ABA6505002D679B;
+			productRefGroup = A7A97F581ABA6505002D679B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A97F561ABA6505002D679B /* SocialDining */,
+				A7A97F6D1ABA6506002D679B /* SocialDiningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A97F551ABA6505002D679B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72E6ABB1B4B02FE00DA80D9 /* DateVotingCell.xib in Resources */,
+				A77F4E3C1AE9ACE5005D0D4F /* FriendCell.xib in Resources */,
+				A7E137581BB9D0CA00562B8B /* AuthenticatedUserCell.xib in Resources */,
+				A7E137641BBAF02F00562B8B /* AppNameCell.xib in Resources */,
+				A7E137541BB9B2D600562B8B /* LogoutCell.xib in Resources */,
+				A7E1375C1BBA199300562B8B /* ContactUsCell.xib in Resources */,
+				A70DCA091B44A89B00D3DEF5 /* PlaceVotingCell.xib in Resources */,
+				A7877CBB1AC34FBA00EB5FF9 /* InvitationCell.xib in Resources */,
+				A7A97F641ABA6505002D679B /* Main.storyboard in Resources */,
+				A7A97F691ABA6505002D679B /* LaunchScreen.xib in Resources */,
+				A7E137601BBAE58400562B8B /* ShareCell.xib in Resources */,
+				A7A97F661ABA6505002D679B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A97F6C1ABA6506002D679B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		152E48473973309FF4157715 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialDining/Pods-SocialDining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563CBB83708D9EEA4CE34791 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialDining/Pods-SocialDining-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26D8C12F86E7E8F34B69967 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A97F531ABA6505002D679B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A740D2831B44ABBF00813F19 /* PlaceVotingTableViewCell.swift in Sources */,
+				A84BF8DB1CBAF9F60080DDB1 /* ChangeIconVisible.swift in Sources */,
+				A7F68F791ACA27700088104E /* LoginViewController.swift in Sources */,
+				A7E3F8501AD818DC002795B3 /* AddDateViewController.swift in Sources */,
+				A7E1374D1BB5DC8800562B8B /* SWRevealViewController.m in Sources */,
+				A7E137561BB9B3DF00562B8B /* LogoutCellTableViewCell.swift in Sources */,
+				A743460F1B5434C4008F569A /* AddPlaceInvitationDetailsViewController.swift in Sources */,
+				A7A97F7F1ABB2D29002D679B /* InvitationDataManager.swift in Sources */,
+				A7E1375E1BBA19F300562B8B /* ContactUsTableViewCell.swift in Sources */,
+				A7A45AB11B671471000E7EE7 /* PlaceVote.swift in Sources */,
+				A76B2E551ABB91F300E3651F /* Invitation.swift in Sources */,
+				A70033791BCC42930012BA4E /* SwiftyJSON.swift in Sources */,
+				A7877CBF1AC375B200EB5FF9 /* InvitationDetailsViewController.swift in Sources */,
+				A7A45AB61B671628000E7EE7 /* PlaceVoteDataManager.swift in Sources */,
+				A72D59E51B0BB93100B6486E /* FMResultSet.m in Sources */,
+				A7877CBD1AC3509200EB5FF9 /* InvitationTableViewCell.swift in Sources */,
+				A72D59E41B0BB93100B6486E /* FMDatabase.m in Sources */,
+				A72D59E61B0BB93100B6486E /* FMDatabaseQueue.m in Sources */,
+				A74A51841CC565000063DE4F /* Group.swift in Sources */,
+				A779C4631B6E66160011433F /* CommentsDataManager.swift in Sources */,
+				A7C448F11ACC8463008848D3 /* PossibleInvitationDate.swift in Sources */,
+				A7A97F611ABA6505002D679B /* SecondViewController.swift in Sources */,
+				A72D59E81B0BB93100B6486E /* FMDatabasePool.m in Sources */,
+				A7D0400F1B5FFAB1004568A2 /* PossibleInvitationDateVote.swift in Sources */,
+				A7E3F8521AD83967002795B3 /* AddFriendViewController.swift in Sources */,
+				A7BE61531B98AF020052C7E2 /* DatabaseOpenHandler.swift in Sources */,
+				A70BEA071BCD7AB00098C91D /* BackTableViewController.swift in Sources */,
+				A7E137621BBAE60D00562B8B /* ShareTableViewCell.swift in Sources */,
+				A767FB791BBDAB0100511EE4 /* NotificationHandler.swift in Sources */,
+				A7A97F5D1ABA6505002D679B /* AppDelegate.swift in Sources */,
+				A72E6ABD1B4B039A00DA80D9 /* DateVotingTableViewCell.swift in Sources */,
+				A7F1D5071B49B53100F34A2E /* PossibleInvitationDateDataManager.swift in Sources */,
+				A7A97F5F1ABA6505002D679B /* FirstViewController.swift in Sources */,
+				A7E1375A1BB9D14A00562B8B /* AuthenticatedUserTableViewCell.swift in Sources */,
+				A7A8FC501B8CBF6B00682D0B /* PopupMessageHandler.swift in Sources */,
+				A7F6081E1B1649D000EA4674 /* Config.swift in Sources */,
+				A743E5FA1AD7049C008C1AAF /* RestaurantDataManager.swift in Sources */,
+				A743E5FC1AD704D2008C1AAF /* Restaurant.swift in Sources */,
+				A7E137661BBAF10300562B8B /* AppNameTableViewCell.swift in Sources */,
+				A85217DD1CB2D5FC00D9F9AF /* EditTitleViewController.swift in Sources */,
+				A77B1DFA1B7FF62000A378D2 /* ParticipantDataManager.swift in Sources */,
+				A7A6ACFC1B451BC300ADF26F /* AddDateInvitationDetailsViewController.swift in Sources */,
+				A779C45E1B6C0F510011433F /* CommentsViewController.swift in Sources */,
+				A76B2E881ABC6DE600E3651F /* Model.xcdatamodeld in Sources */,
+				A72D59AD1B0A7F8700B6486E /* UserDataManager.swift in Sources */,
+				A76049451B2B403D006ECA35 /* Participant.swift in Sources */,
+				A72626061BA9DD3E00C6382B /* Reachability.m in Sources */,
+				A7D040111B5FFBB6004568A2 /* PossibleInvitationDateVoteDataManager.swift in Sources */,
+				A72D59E71B0BB93100B6486E /* FMDatabaseAdditions.m in Sources */,
+				A74293AA1ACEEBD9004E8096 /* User.swift in Sources */,
+				A779C4651B6E66CD0011433F /* Comment.swift in Sources */,
+				A74346141B543C61008F569A /* AddFriendInvitationDetailsViewController.swift in Sources */,
+				A77F4E3A1AE9AC64005D0D4F /* FriendTableViewCell.swift in Sources */,
+				A743E5F41AD6F4C7008C1AAF /* AddRestaurantViewController.swift in Sources */,
+				A7C2F5811B051ED000E5B7BF /* GoogleReviewsViewController.swift in Sources */,
+				A74A51861CC990A00063DE4F /* GroupDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A97F6A1ABA6506002D679B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7A97F701ABA6506002D679B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A97F561ABA6505002D679B /* SocialDining */;
+			targetProxy = A7A97F6F1ABA6506002D679B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7A97F621ABA6505002D679B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A97F631ABA6505002D679B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7A97F671ABA6505002D679B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A97F681ABA6505002D679B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A71F809A1C123D4000161E58 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CU Boulder (X72NE75G29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CU Boulder (X72NE75G29)";
+				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialDining/Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		A71F809B1C123D4000161E58 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11BC1B61DDE1127B15E8C56 /* Pods-SocialDining.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					/Users/khaledalalnezi/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = SocialDining/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					/Users/khaledalalnezi/Documents/FacebookSDK,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"GGLCloudMessaging\"",
+					"-l\"GGLCore\"",
+					"-l\"GGLInstanceIDLib\"",
+					"-l\"GcmLib\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.colorado.socialfusion.SocialDining;
+				PRODUCT_NAME = OWF;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialDining/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		A71F809C1C123D4000161E58 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11BC1B61DDE1127B15E8C56 /* Pods-SocialDining.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocialDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.colorado.socialfustion.socialdining.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialDining.app/SocialDining";
+			};
+			name = Distribution;
+		};
+		A7A97F761ABA6506002D679B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CU Boulder (X72NE75G29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CU Boulder (X72NE75G29)";
+				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialDining/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7A97F771ABA6506002D679B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CU Boulder (X72NE75G29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CU Boulder (X72NE75G29)";
+				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialDining/Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A97F791ABA6506002D679B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8932E59D831026F275CA5FDD /* Pods-SocialDining.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					/Users/khaledalalnezi/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = SocialDining/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+					/Users/khaledalalnezi/Documents/FacebookSDK,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"GGLCloudMessaging\"",
+					"-l\"GGLCore\"",
+					"-l\"GGLInstanceIDLib\"",
+					"-l\"GcmLib\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.colorado.socialfusion.SocialDining;
+				PRODUCT_NAME = OWF;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialDining/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A7A97F7A1ABA6506002D679B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11BC1B61DDE1127B15E8C56 /* Pods-SocialDining.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					/Users/khaledalalnezi/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = SocialDining/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					/Users/khaledalalnezi/Documents/FacebookSDK,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"GGLCloudMessaging\"",
+					"-l\"GGLCore\"",
+					"-l\"GGLInstanceIDLib\"",
+					"-l\"GcmLib\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.colorado.socialfusion.SocialDining;
+				PRODUCT_NAME = OWF;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialDining/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A7A97F7C1ABA6506002D679B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8932E59D831026F275CA5FDD /* Pods-SocialDining.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocialDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.colorado.socialfustion.socialdining.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialDining.app/SocialDining";
+			};
+			name = Debug;
+		};
+		A7A97F7D1ABA6506002D679B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11BC1B61DDE1127B15E8C56 /* Pods-SocialDining.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocialDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.colorado.socialfustion.socialdining.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialDining.app/SocialDining";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A97F521ABA6505002D679B /* Build configuration list for PBXProject "SocialDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A97F761ABA6506002D679B /* Debug */,
+				A7A97F771ABA6506002D679B /* Release */,
+				A71F809A1C123D4000161E58 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A97F781ABA6506002D679B /* Build configuration list for PBXNativeTarget "SocialDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A97F791ABA6506002D679B /* Debug */,
+				A7A97F7A1ABA6506002D679B /* Release */,
+				A71F809B1C123D4000161E58 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A97F7B1ABA6506002D679B /* Build configuration list for PBXNativeTarget "SocialDiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A97F7C1ABA6506002D679B /* Debug */,
+				A7A97F7D1ABA6506002D679B /* Release */,
+				A71F809C1C123D4000161E58 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A76B2E861ABC6DE600E3651F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A76B2E871ABC6DE600E3651F /* Model.xcdatamodel */,
+			);
+			currentVersion = A76B2E871ABC6DE600E3651F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7A97F4F1ABA6505002D679B /* Project object */;
+}
